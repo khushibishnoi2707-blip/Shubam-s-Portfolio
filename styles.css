@@ -4,7 +4,7 @@
   --ink-soft: #d8e7e2;
   --muted: #9fb3ad;
   --line: rgba(203, 232, 224, 0.16);
-  --paper: #07100e;
+  --paper: #000000;
   --surface: #101b18;
   --surface-soft: #172722;
   --green: #42dec9;
@@ -35,7 +35,7 @@ body {
     radial-gradient(circle at 14% 8%, rgba(34, 219, 199, 0.16), transparent 28%),
     radial-gradient(circle at 88% 12%, rgba(255, 146, 125, 0.12), transparent 30%),
     radial-gradient(circle at 58% 58%, rgba(112, 162, 255, 0.08), transparent 34%),
-    linear-gradient(180deg, #08110f 0%, var(--paper) 45%, #050908 100%);
+    linear-gradient(180deg, #000000 0%, var(--paper) 45%, #000000 100%);
   font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   line-height: 1.6;
   text-rendering: geometricPrecision;
