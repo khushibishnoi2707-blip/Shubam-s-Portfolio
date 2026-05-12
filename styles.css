@@ -5,8 +5,8 @@
   --muted: #9fb3ad;
   --line: rgba(203, 232, 224, 0.16);
   --paper: #000000;
-  --surface: #101b18;
-  --surface-soft: #172722;
+  --surface: #050505;
+  --surface-soft: #0d0d0d;
   --green: #42dec9;
   --green-deep: #0f766e;
   --teal: #22dbc7;
@@ -78,7 +78,7 @@ img {
   justify-content: space-between;
   gap: 24px;
   padding: 14px clamp(18px, 4vw, 56px);
-  background: rgba(7, 16, 14, 0.78);
+  background: rgba(0, 0, 0, 0.84);
   border-bottom: 1px solid var(--line);
   backdrop-filter: blur(20px) saturate(1.2);
 }
@@ -112,7 +112,7 @@ img {
   padding: 5px;
   border: 1px solid var(--line);
   border-radius: 999px;
-  background: rgba(16, 27, 24, 0.72);
+  background: rgba(0, 0, 0, 0.72);
   box-shadow: 0 12px 34px rgba(0, 0, 0, 0.2);
 }
 
@@ -137,7 +137,7 @@ img {
   height: 46px;
   border: 1px solid var(--line);
   border-radius: var(--radius);
-  background: rgba(16, 27, 24, 0.9);
+  background: rgba(0, 0, 0, 0.9);
   box-shadow: var(--shadow-sm);
   cursor: pointer;
 }
@@ -175,7 +175,7 @@ img {
   border: 1px solid rgba(66, 222, 201, 0.22);
   border-radius: 999px;
   color: var(--green);
-  background: rgba(16, 27, 24, 0.78);
+  background: rgba(0, 0, 0, 0.72);
   font-size: 0.75rem;
   font-weight: 850;
   letter-spacing: 0;
@@ -265,13 +265,13 @@ h3 {
 
 .btn.secondary {
   border: 1px solid var(--line);
-  background: rgba(16, 27, 24, 0.84);
+  background: rgba(0, 0, 0, 0.84);
   color: var(--ink-soft);
 }
 
 .btn.secondary:hover {
   border-color: rgba(66, 222, 201, 0.38);
-  background: rgba(23, 39, 34, 0.96);
+  background: rgba(13, 13, 13, 0.98);
   box-shadow: var(--shadow-sm);
 }
 
@@ -289,7 +289,7 @@ h3 {
   padding: 20px;
   border: 1px solid var(--line);
   border-radius: var(--radius);
-  background: rgba(16, 27, 24, 0.78);
+  background: rgba(0, 0, 0, 0.78);
   box-shadow: 0 14px 38px rgba(0, 0, 0, 0.22);
 }
 
@@ -343,7 +343,7 @@ h3 {
   gap: clamp(24px, 6vw, 72px);
   border-top: 1px solid var(--line);
   border-bottom: 1px solid var(--line);
-  background: rgba(9, 19, 16, 0.72);
+  background: rgba(0, 0, 0, 0.82);
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.04);
 }
 
@@ -370,7 +370,7 @@ h3 {
   overflow: hidden;
   border: 1px solid var(--line);
   border-radius: var(--radius);
-  background: rgba(16, 27, 24, 0.84);
+  background: rgba(0, 0, 0, 0.82);
   box-shadow: var(--shadow-sm);
   transition: transform 180ms ease, box-shadow 180ms ease, border-color 180ms ease;
 }
@@ -388,7 +388,7 @@ h3 {
 .project-media {
   position: relative;
   min-height: 220px;
-  background: #101b18;
+  background: #000000;
 }
 
 .featured .project-media {
@@ -444,7 +444,7 @@ h3 {
   padding: 30px;
   background:
     linear-gradient(180deg, rgba(255, 255, 255, 0.08), transparent 34%),
-    linear-gradient(140deg, #07100e, #193d36);
+    linear-gradient(140deg, #000000, #111111);
 }
 
 .market-media span {
@@ -513,7 +513,7 @@ h3 {
   border: 1px solid var(--line);
   border-radius: 999px;
   color: var(--muted);
-  background: rgba(7, 16, 14, 0.46);
+  background: rgba(0, 0, 0, 0.58);
   font-size: 0.82rem;
   font-weight: 850;
 }
@@ -522,7 +522,7 @@ h3 {
   border-block: 1px solid var(--line);
   background:
     linear-gradient(135deg, rgba(34, 219, 199, 0.1), rgba(241, 189, 82, 0.08)),
-    rgba(11, 22, 19, 0.92);
+    rgba(0, 0, 0, 0.96);
 }
 
 .skill-grid {
@@ -536,13 +536,13 @@ h3 {
   padding: 24px;
   border: 1px solid var(--line);
   border-radius: var(--radius);
-  background: rgba(16, 27, 24, 0.72);
+  background: rgba(0, 0, 0, 0.76);
   box-shadow: 0 14px 34px rgba(0, 0, 0, 0.22);
   transition: transform 180ms ease, background 180ms ease;
 }
 
 .skill-grid article:hover {
-  background: rgba(23, 39, 34, 0.92);
+  background: rgba(10, 10, 10, 0.96);
   transform: translateY(-4px);
 }
 
@@ -600,7 +600,7 @@ h3 {
   max-width: none;
   background:
     linear-gradient(135deg, rgba(34, 219, 199, 0.14), transparent 30%),
-    linear-gradient(160deg, #050908 0%, #101f1b 100%);
+    linear-gradient(160deg, #000000 0%, #090909 100%);
   color: white;
 }
 
@@ -653,7 +653,7 @@ h3 {
   padding: 18px 20px;
   border: 1px solid var(--line);
   border-radius: var(--radius);
-  background: rgba(16, 27, 24, 0.82);
+  background: rgba(0, 0, 0, 0.82);
   color: var(--muted);
   box-shadow: 0 14px 32px rgba(0, 0, 0, 0.22);
   font-weight: 850;
@@ -689,7 +689,7 @@ h3 {
   padding: 24px clamp(18px, 5vw, 72px);
   border-top: 1px solid var(--line);
   color: var(--muted);
-  background: rgba(7, 16, 14, 0.56);
+  background: rgba(0, 0, 0, 0.76);
   font-weight: 750;
 }
 
@@ -748,7 +748,7 @@ h3 {
     padding: 10px;
     border: 1px solid var(--line);
     border-radius: var(--radius);
-    background: rgba(16, 27, 24, 0.96);
+    background: rgba(0, 0, 0, 0.96);
     box-shadow: var(--shadow-md);
   }
 
