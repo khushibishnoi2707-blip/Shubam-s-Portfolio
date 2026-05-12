@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portfolio of Shubham Gupta, a Computer Science and Data Science student building AI, machine learning, RAG, and analytics projects."
+    />
+    <title>Shubham Gupta | AI/ML Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Shubham Gupta home">
+        <span>SG</span>
+      </a>
+      <nav class="nav-links" aria-label="Primary navigation">
+        <a href="#work">Work</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button class="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false">
+        <span></span>
+        <span></span>
+      </button>
+    </header>
+
+    <main id="top">
+      <section class="hero section-pad">
+        <div class="hero-copy">
+          <p class="eyebrow">AI/ML Engineer in training &middot; Data Science undergraduate</p>
+          <h1>Shubham Gupta</h1>
+          <p class="hero-text">
+            I build practical AI systems that connect deep learning, retrieval pipelines, analytics,
+            and clean interfaces into useful products.
+          </p>
+          <div class="hero-actions" aria-label="Portfolio actions">
+            <a class="btn primary" href="#work">View projects</a>
+            <a class="btn secondary" href="mailto:in.sg5447@gmail.com">Email me</a>
+            <a class="btn secondary" href="Shubham_Gupta_Resume.pdf" target="_blank" rel="noreferrer">
+              Resume
+            </a>
+          </div>
+          <dl class="hero-stats" aria-label="Highlights">
+            <div>
+              <dt>8.3</dt>
+              <dd>CGPA</dd>
+            </div>
+            <div>
+              <dt>91%</dt>
+              <dd>waste classifier validation accuracy</dd>
+            </div>
+            <div>
+              <dt>97.66%</dt>
+              <dd>HEALBOT AUC-ROC</dd>
+            </div>
+          </dl>
+        </div>
+
+        <div class="hero-visual">
+          <img
+            src="assets/portfolio-visual.png"
+            alt="Dashboard-style visual showing AI pipeline nodes and forecasting metrics"
+          />
+        </div>
+      </section>
+
+      <section class="section-pad about-section" aria-labelledby="about-title">
+        <div>
+          <p class="section-kicker">About</p>
+          <h2 id="about-title">Computer Science student focused on AI that works in the real world.</h2>
+        </div>
+        <p>
+          I am pursuing B.Tech in Computer Science and Engineering with Data Science at Amity
+          University Uttar Pradesh. My work spans medical AI, time-series forecasting, garbage
+          classification, customer segmentation, banking analytics, and data dashboards.
+        </p>
+      </section>
+
+      <section class="section-pad" id="work" aria-labelledby="work-title">
+        <div class="section-heading">
+          <p class="section-kicker">Selected Work</p>
+          <h2 id="work-title">Projects built around applied machine learning.</h2>
+        </div>
+        <div class="project-grid">
+          <article class="project-card featured">
+            <div class="project-media medical-media" aria-hidden="true">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+            <div class="project-content">
+              <p class="project-tag">Healthcare AI &middot; RAG &middot; XAI</p>
+              <h3>HEALBOT: Medical Intelligent Diagnosis and Q&amp;A System</h3>
+              <p>
+                Bilingual multimodal healthcare AI using EfficientNetV2-L and ConvNeXt-Base with
+                Hybrid RAG through FAISS, BM25, and RRF to reduce hallucinations.
+              </p>
+              <ul class="project-metrics">
+                <li>77.91% accuracy</li>
+                <li>97.66% AUC-ROC</li>
+                <li>Streamlit + FastAPI-ready pipeline</li>
+              </ul>
+              <div class="tech-list">
+                <span>PyTorch</span>
+                <span>LangChain</span>
+                <span>FAISS</span>
+                <span>OpenAI</span>
+                <span>Streamlit</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-media market-media" aria-hidden="true">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+            <div class="project-content">
+              <p class="project-tag">Forecasting &middot; Time Series</p>
+              <h3>Stock Price Trend Forecaster</h3>
+              <p>
+                Deep learning forecasting system using stacked BiLSTM networks, technical
+                indicators, multivariate preprocessing, and reusable ETL-style workflows.
+              </p>
+              <ul class="project-metrics">
+                <li>Yahoo Finance API</li>
+                <li>RMSE evaluation</li>
+                <li>Plotly dashboard</li>
+              </ul>
+              <div class="tech-list">
+                <span>Python</span>
+                <span>Keras</span>
+                <span>BiLSTM</span>
+                <span>Streamlit</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section-pad skills-section" id="skills" aria-labelledby="skills-title">
+        <div class="section-heading">
+          <p class="section-kicker">Skills</p>
+          <h2 id="skills-title">A stack for models, data, backends, and delivery.</h2>
+        </div>
+        <div class="skill-grid">
+          <article>
+            <h3>Languages &amp; CS</h3>
+            <p>Python, Java, C++, OOP, DBMS, Operating Systems, Computer Networks</p>
+          </article>
+          <article>
+            <h3>AI/ML &amp; LLM</h3>
+            <p>PyTorch, TensorFlow/Keras, LangChain, RAG Pipelines, Hybrid Search, FAISS, Transformers</p>
+          </article>
+          <article>
+            <h3>Data &amp; Backend</h3>
+            <p>Pandas, NumPy, MySQL, MongoDB, REST APIs, Streamlit, FastAPI, JSON</p>
+          </article>
+          <article>
+            <h3>Tools</h3>
+            <p>Git/GitHub, Google Colab, Power BI, Excel, Docker</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section-pad timeline-section" id="experience" aria-labelledby="experience-title">
+        <div class="section-heading">
+          <p class="section-kicker">Experience</p>
+          <h2 id="experience-title">Internships, education, and leadership.</h2>
+        </div>
+        <div class="timeline">
+          <article>
+            <time>May 2025 - June 2025</time>
+            <h3>Data Analyst Intern &middot; Edulyt India</h3>
+            <p>
+              Analyzed customer segmentation and banking transaction records using Python, MySQL,
+              Excel, and Power BI. Improved data processing workflows and predictive accuracy by 25%.
+            </p>
+          </article>
+          <article>
+            <time>July 2025</time>
+            <h3>AI/ML Intern &middot; Edunet Foundation with AICTE &amp; Shell</h3>
+            <p>
+              Built a transfer learning garbage classification system for 6 waste types and shipped
+              a Streamlit app for real-time waste sorting predictions.
+            </p>
+          </article>
+          <article>
+            <time>2022 - Present</time>
+            <h3>B.Tech CSE, Data Science &middot; Amity University Uttar Pradesh</h3>
+            <p>Current CGPA: 8.3 / 10.0.</p>
+          </article>
+          <article>
+            <time>2023 - 2024</time>
+            <h3>Head of Promotions &amp; General Management &middot; CodeCampers Club</h3>
+            <p>
+              Led promotion and club management work, supporting technical community activity and
+              event participation.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section-pad achievements-section" aria-labelledby="achievements-title">
+        <div class="section-heading">
+          <p class="section-kicker">Recognition</p>
+          <h2 id="achievements-title">Achievements</h2>
+        </div>
+        <div class="achievement-list">
+          <p>Certificate of Appreciation, 14th International Conference on Cloud Computing &amp; Data Science</p>
+          <p>Smart India Hackathon 2025 participant for AI-based crop recommendation for farmers</p>
+          <p>Class X: 86.2% &middot; Class XII: 73%</p>
+        </div>
+      </section>
+
+      <section class="section-pad contact-section" id="contact" aria-labelledby="contact-title">
+        <div>
+          <p class="section-kicker">Contact</p>
+          <h2 id="contact-title">Let's build useful AI systems.</h2>
+        </div>
+        <div class="contact-panel">
+          <a href="mailto:in.sg5447@gmail.com">in.sg5447@gmail.com</a>
+          <a href="tel:+917379151898">+91 73791 51898</a>
+          <a href="https://linkedin.com/in/shubham-gupta777" target="_blank" rel="noreferrer">
+            linkedin.com/in/shubham-gupta777
+          </a>
+          <a href="https://github.com/Shubham-Gupta7" target="_blank" rel="noreferrer">
+            github.com/Shubham-Gupta7
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>&copy; <span id="year"></span> Shubham Gupta</p>
+      <a href="#top">Back to top</a>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
